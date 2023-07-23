@@ -1,0 +1,75 @@
+/* BlogCard.css */
+
+/* Center the blog content and add some padding */
+.blog-container {
+    /* max-width: 800px; */
+    /* margin: 0 auto; */
+    padding: 20px;
+}
+
+/* Style the individual blog cards */
+.blog-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Style the blog post titles */
+.blog-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the "Read More" button */
+.read-more-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background-color: #c3d7ed;
+    color: #007bff;
+}
+
+/* Truncate the blog post content and add ellipsis for overflow */
+.card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.logo-container {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    /* display: flex; */
+}
+
+.logo {
+    width: 60px;
+    /* Adjust the width to fit your logo */
+    height: auto;
+}
+
+
+/* footer */
+.bluehour {
+    color: rgb(118, 118, 118);
+}
+
+.bluehour:hover {
+    color: rgb(30, 20, 20);
+
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
